@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+}
+
+canvas {
+  display: block;
+}
+
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+#button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#start-button {
+  background-color: #0000FF; /* 蓝色背景 */
+  border: none; /* 无边框 */
+  color: white; /* 白色文字 */
+  font-family: cursive; /* 手写体 */
+  padding: 10px 20px; /* 内边距 */
+}
+
